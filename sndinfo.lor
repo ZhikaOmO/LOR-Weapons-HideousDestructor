@@ -1,0 +1,10 @@
+lor/inc/fire1 sounds/lor_incfi1.wav
+lor/inc/fire2 sounds/lor_incfi2.wav
+$random lor/inc/fire { lor/inc/fire1 lor/inc/fire2 }
+lor/inc/burn sounds/lor_incbrn.wav
+lor/inc/hit1 sounds/lor_incht1.wav
+lor/inc/hit2 sounds/lor_incht2.wav
+lor/inc/hit3 sounds/lor_incht3.wav
+lor/cbl/charge sounds/lor_hetchg.wav
+lor/cbl/shoot sounds/lor_hetsht.wav
+lor/cbl/explode sounds/lor_hetxpl.wav

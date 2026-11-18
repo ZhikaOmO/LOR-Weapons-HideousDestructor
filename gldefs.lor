@@ -1,0 +1,46 @@
+pointlight LORFLAME
+{
+	color 1.0 0.55 0.1
+	size 56
+}
+pointlight LORWAVE
+{
+	color 1.0 0.4 0.1
+	size 72
+}
+//Only the "Lit" classes carry dynamic lights; the plain ones look identical
+//but cost nothing extra. This keeps heavy use cheap.
+object LoRFlameLit
+{
+	frame INFLA { light LORFLAME }
+	frame INFLB { light LORFLAME }
+	frame INFLC { light LORFLAME }
+	frame INFLD { light LORFLAME }
+	frame INFLE { light LORFLAME }
+	frame INFLF { light LORFLAME }
+	frame INFLG { light LORFLAME }
+	frame INFLH { light LORFLAME }
+	frame INFLI { light LORFLAME }
+	frame INFLJ { light LORFLAME }
+	frame INFLK { light LORFLAME }
+	frame INFLL { light LORFLAME }
+	frame INFLM { light LORFLAME }
+	frame INFLN { light LORFLAME }
+	frame INFLO { light LORFLAME }
+	frame INFLP { light LORFLAME }
+}
+object LoRHeatwaveLit
+{
+	frame CBLBA { light LORWAVE }
+	frame CBLBB { light LORWAVE }
+	frame CBLBC { light LORWAVE }
+	frame CBLBD { light LORWAVE }
+	frame CBLBE { light LORWAVE }
+	frame CBLBF { light LORWAVE }
+}
+object LoRBolt
+{
+	frame CBLBA { light LORWAVE }
+	frame CBLBB { light LORWAVE }
+	frame CBLBC { light LORWAVE }
+}

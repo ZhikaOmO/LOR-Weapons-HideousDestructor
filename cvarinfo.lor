@@ -1,0 +1,5 @@
+server int lor_inc_spawn = 20;
+server int lor_cbl_spawn = 20;
+server int lor_can_spawn = 25;
+server int lor_tank_spawn = 25;
+server int lor_pack_spawn = 25;

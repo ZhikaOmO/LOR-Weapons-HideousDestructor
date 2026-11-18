@@ -1,0 +1,27 @@
+[enu default]
+TAG_LORFUEL = "fuel tank";
+TAG_LORINCINERATOR = "Incinerator";
+TAG_LORCALAMITY = "Calamity Blade";
+PICKUP_LORFUELTANK = "Picked up a fuel tank.";
+PICKUP_LORFUELCAN = "Picked up a fuel can.";
+PICKUP_LORINCINERATOR = "You got the Incinerator!";
+PICKUP_LORCALAMITY = "You got the Calamity Blade!";
+OB_LORINCINERATOR = "%o was incinerated by %k.";
+OB_LORCALAMITY = "%o was caught in the calamity of %k's heat waves.";
+LORINCWH_SWITCH = "  Switch to ";
+LORINCWH_BLAST = "scatter blast";
+LORINCWH_STREAM = "narrow stream";
+LORINCWH_NOZZLE = " nozzle\n";
+LORCBLWH_FIRE = "  Hold to charge (10 fuel per pulse, up to 5), release to unleash\n";
+LORCBLWH_BALFIRE = "  Fire a single high-power bolt (30 fuel)\n";
+LORCBLWH_BALCHARGE = "  Hold to charge the ballista (3 levels: more damage, speed and blast, more fuel)\n";
+LORCBLWH_SWITCH = "  Switch to ";
+LORCBLWH_WAVES = "heat wave";
+LORCBLWH_BALLISTA = "ballista";
+LORCBLWH_MODE = " mode\n";
+TAG_LORFUELUNIT = "loose fuel";
+PICKUP_LORFUELUNIT = "Picked up some fuel.";
+TAG_LORPACK = "flamethrower pack";
+PICKUP_LORPACK = "Picked up a flamethrower pack.";
+LORPACKWH_LINK = "  (Reload with full tank) Link pack hose\n";
+LORPACKWH_UNLINK = "  Unload: disconnect pack hose\n";

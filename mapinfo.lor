@@ -1,0 +1,14 @@
+gameinfo
+{
+	addeventhandlers = "LoRHandler"
+}
+
+DoomEdNums
+{
+	23460 = LoRIncinerator
+	23461 = LoRCalamityBlade
+	23462 = LoRFuelTank
+	23463 = LoRFuelCanSpawn
+	23464 = LoRFuelUnit
+	23465 = LoRFuelPack
+}

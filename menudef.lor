@@ -1,0 +1,17 @@
+AddOptionMenu "OptionsMenu"
+{
+	StaticText ""
+	Submenu "Legacy of Rust Weapons", "LoROptions"
+}
+
+OptionMenu "LoROptions"
+{
+	Title "Legacy of Rust Weapons"
+	StaticText "Chance that each original item is replaced", 1
+	StaticText ""
+	Slider "Plasma Rifle -> Incinerator (%)", "lor_inc_spawn", 0, 100, 5, 0
+	Slider "BFG9000 -> Calamity Blade (%)", "lor_cbl_spawn", 0, 100, 5, 0
+	Slider "Cell -> Fuel Can (%)", "lor_can_spawn", 0, 100, 5, 0
+	Slider "Cell Pack -> Fuel Tank (%)", "lor_tank_spawn", 0, 100, 5, 0
+	Slider "Backpack -> Flamethrower Pack (%)", "lor_pack_spawn", 0, 100, 5, 0
+}

@@ -1,0 +1,12 @@
+// Flamethrower Pack compatibility registry.
+// While you wear a Flamethrower Pack and hold a registered weapon, the pack
+// tops up that weapon's fuel slot (2 units/tic) until it reaches "max".
+//
+// One line per weapon:   <weapon class name>  <weaponstatus index>  <max fuel>
+// Subclasses are matched too. Any mod may ship its own file named
+// LORCOMPAT (any extension, e.g. lorcompat.mymod) - all copies are read.
+//
+// Example (check the other mod's source for the real class/index/max):
+//   MyFlamerWeapon  4  100
+// (Weapons that keep fuel in a worn tank rather than weaponstatus can call
+//  LoRFuelPackWorn.Available(owner) / .Draw(owner,amt) / .Add(owner,amt) directly.)
