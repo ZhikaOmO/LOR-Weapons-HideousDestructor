@@ -109,9 +109,10 @@ class LoRFuelPack:HDMagAmmo{
 	}
 	override void consolidate(){}
 	override double getbulk(){
-		syncamount();
+		//no SyncAmount() here: newer HD forbids it inside GetBulk, so just read what is there
 		double blk=0;
-		for(int i=0;i<amount;i++)blk+=60+(mags[i]*0.1);
+		int n=min(amount,mags.size());
+		for(int i=0;i<n;i++)blk+=60+(min(mags[i],LOR_PACKFUEL)*0.1);
 		return blk;
 	}
 	override double getbulkonemag(int which){
